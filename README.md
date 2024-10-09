@@ -13,18 +13,13 @@ There will be a set of letters from A to Z. The goal is to guess a secret word b
 <li> As a user, I want to see a display of the stick man once I get a wrong guess. </li>
 <li> As a user, I want to see a display if I lost the game or won.</li>
 <li> As a user, I expect if I clicked a letter I can’t use that same letter again.</li>
-=======
+
 <li>As a user, I want to see a hanger in the page.</li>
 <li>As a user, I want to see a clear buttons of all the  alphabetical letters at the bottom of the page.</li>
 <li>As a user, I want to see a clear dashs that needs to show me how many letters are there and how many I got right and how many letters left for me to choose or guess.</li>
 <li>As a user, I want to see a display of the stick man once I get a wrong guess. </li>
 <li>As a user, I want to see a display if I lost the game or won.</li>
 <li>As a user, I expect if I clicked a letter I can’t use that same letter again.</li>
->>>>>>> cce3f875922503b8209033cd5a486bd54f6fd0f5
-
 
 </ul>
-=======
 
-
->>>>>>> 0acac753f9d09a07ae1e7bc8c0397fe3e00405c4
