@@ -78,6 +78,8 @@ button:disabled {
 
 .modal-content h4 {
     color: #3498db;
+
+    margin: 50px;
 }
 
 .modal-content p {
@@ -93,8 +95,7 @@ button:disabled {
     cursor: pointer;
 }
 .lost-message{
-margin: 10px;
-color: red;
+margin: 50px;
 padding: 20px;
 border: solid;
 box-shadow: 12px 25px 10px 15px;
@@ -103,7 +104,7 @@ background-color: aqua;
 
 }
 .reply{
-    border-radius: 20px;
+    border-radius: 50px;
     justify-content: center;
     align-items: center;
 }
