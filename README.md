@@ -2,9 +2,9 @@
 ## hangman
 game idea
 
-Hangman is a word-guessing game built using html, css, and javascript, where players attempts to guess a hidden word by suggesting letters within a certain number of guesses.
-It is a fun game to practice vocabulary, spelling, increases the logical thinking, and language skills.
-Spirit of competition.
+<li>Hangman is a word-guessing game built using html, css, and javascript, where players attempts to guess a hidden word by suggesting letters within a certain number of guesses.</li>
+<li>It is a fun game to practice vocabulary, spelling, increases the logical thinking, and language skills.</li>
+<li>Spirit of competition.</li>
 
 
 <ul>
