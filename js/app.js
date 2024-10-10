@@ -52,38 +52,7 @@ function updateDisplayWord() {
     wordDisplay.textContent = displayWord.split('').join(' ');
 }
 
-// function handleGuess(button, clickedLetter) {
 
-//     if (wrongGuess === maxGuesses || !displayWord.includes('-')) {
-//         return;
-//     }
-
-//     button.disabled = true;
-
-//     if (currentWord.includes(clickedLetter.toLowerCase())) {
-//         let newDisplay = '';
-//         for (let i = 0; i < currentWord.length; i++) {
-//             if (currentWord[i] === clickedLetter.toLowerCase()) {
-//                 newDisplay += clickedLetter.toLowerCase();
-//             } else {
-//                 newDisplay += displayWord[i];
-//             }
-//         }
-//         displayWord = newDisplay;
-//         updateDisplayWord();
-//     } else {
-//         wrongGuess++;
-//         guessesText.innerText = `${wrongGuess} / ${maxGuesses}`;
-//     }
-
-  
-//     if (wrongGuess === maxGuesses) {
-//         return gameOver(false);
-//     }
-//     if (!displayWord.includes('-')) {
-//         return gameOver(true);
-//     }
-// }
 
 function handleGuess(button, clickedLetter) {
     if (wrongGuess === maxGuesses || !displayWord.includes('-')) {
