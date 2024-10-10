@@ -111,4 +111,8 @@ FUNCTION gameOver(isVictory)
 
 <li>CALL resetGame() to start the game </li>
 
+Demo game
+
+http://127.0.0.1:5500/
+
 
