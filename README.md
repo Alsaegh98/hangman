@@ -31,47 +31,47 @@ DEFINE letters AS array of uppercase alphabet letters
 DEFINE maxGuesses AS 6
 
 /*---------- Variables (state) ---------*/
-INITIALIZE currentWord
-INITIALIZE correctLetters AS empty array
-INITIALIZE wrongGuess AS 0
-INITIALIZE displayWord AS empty string
-INITIALIZE modalText AS empty string
+<li>INITIALIZE currentWord</li>
+<li>INITIALIZE correctLetters AS empty array</li>
+<li>INITIALIZE wrongGuess AS 0</li>
+<li>INITIALIZE displayWord AS empty string</li>
+<li>INITIALIZE modalText AS empty string</li>
 
 /*----- Cached Element References  -----*/
-INITIALIZE keyboard AS reference to keyboard element
-INITIALIZE guessesText AS reference to guesses text element
-INITIALIZE wordDisplay AS reference to word display element
-INITIALIZE gameModal AS reference to game modal element
-INITIALIZE replayBtn AS reference to replay button in the modal
+<li>INITIALIZE keyboard AS reference to keyboard element</li>
+<li>INITIALIZE guessesText AS reference to guesses text element</li>
+<li>INITIALIZE wordDisplay AS reference to word display element</li>
+<li>INITIALIZE gameModal AS reference to game modal element</li>
+<li>INITIALIZE replayBtn AS reference to replay button in the modal</li>
 
 /*-------------- Functions -------------*/
 FUNCTION resetGame()
-    SET correctLetters TO empty array
-    SET wrongGuess TO 0
-    UPDATE guessesText with current wrongGuess
-    REMOVE 'show' class from gameModal
-    CALL initializeKeyboard()
-    CALL getword()
-    CALL updateDisplayWord()
+    <li>**SET correctLetters TO empty array</li>
+    <li>SET wrongGuess TO 0</li>
+    <li>UPDATE guessesText with current wrongGuess</li>
+    <li>REMOVE 'show' class from gameModal</li>
+    <li>CALL initializeKeyboard()</li>
+    <li>CALL getword()</li>
+    <li>CALL updateDisplayWord()</li>
 
-FUNCTION initializeKeyboard()
-    CLEAR keyboard content
-    FOR EACH letter IN letters
-        CREATE a button for the letter
-        ADD click event listener to button that calls handleGuess with the button and letter
-        APPEND button to keyboard
+<li>FUNCTION initializeKeyboard()</li>
+    <li>CLEAR keyboard content</li>
+    <li>FOR EACH letter IN letters</li>
+        <li>CREATE a button for the letter</li>
+        <li>ADD click event listener to button that calls handleGuess with the button and letter</li>
+        <li>APPEND button to keyboard</li>
 
 FUNCTION getword()
-    SET currentWord TO a random word from wordlist
-    SET displayWord TO a string of dashes of the same length as currentWord
-    CALL updateDisplayWord()
+    <li>SET currentWord TO a random word from wordlist</li>
+    <li>SET displayWord TO a string of dashes of the same length as currentWord</li>
+    <li>CALL updateDisplayWord()</li>
 
 FUNCTION updateDisplayWord()
-    SET wordDisplay text content to displayWord with spaces between characters
+    <li>SET wordDisplay text content to displayWord with spaces between characters</li>
 
 FUNCTION handleGuess(button, clickedLetter)
-    IF wrongGuess equals maxGuesses OR displayWord does not contain any dashes THEN
-        RETURN
+    <li>IF wrongGuess equals maxGuesses OR displayWord does not contain any dashes THEN
+        RETURN</li>
 
     DISABLE button
 
@@ -97,18 +97,18 @@ FUNCTION handleGuess(button, clickedLetter)
         CALL gameOver with true
 
 FUNCTION gameOver(isVictory)
-    IF isVictory THEN
-        SET modalText to 'You found the word:'
-    ELSE
-        SET modalText to 'The correct word was:'
+    <li>IF isVictory THEN</li>
+        <li>SET modalText to 'You found the word:'</li>
+    <li>ELSE</li>
+        <li>SET modalText to 'The correct word was:'</li>
 
     SET the modal heading based on victory status
     SET the modal content to modalText with currentWord
     ADD 'show' class to gameModal
 
 /*----------- Event Listeners ----------*/
-ADD click event listener to replayBtn that calls resetGame()
+<li>ADD click event listener to replayBtn that calls resetGame()</li>
 
-CALL resetGame() to start the game
+<li>CALL resetGame() to start the game </li>
 
 
