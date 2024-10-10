@@ -111,6 +111,14 @@ FUNCTION gameOver(isVictory)
 
 <li>CALL resetGame() to start the game </li>
 
+<li> conclusion </li>
+
+<li>Hangman game is a fun interactive word guessing game built using html, css, and javascript. </li>
+<li>The game includes random word selection, a limited number of incorrect guesses, and updates to the user interface. </li>
+<li>This project i enhanced my javascript skills, improved my ability to manipulate the DOM, and developed a deeper understanding of game logic.</li>
+<li>This experience has strengthened my problem solving abilities .</li>
+
+
 Demo game
 
 http://127.0.0.1:5500/
