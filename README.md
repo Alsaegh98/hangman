@@ -118,16 +118,16 @@ FUNCTION gameOver(isVictory)
 <li>This project i enhanced my javascript skills, improved my ability to manipulate the DOM, and developed a deeper understanding of game logic.</li>
 <li>This experience has strengthened my problem solving abilities .</li>
 
-
+screenshot of the game:
 
 
 <img width="745" alt="Screenshot 2024-10-12 at 20 50 17" src="https://github.com/user-attachments/assets/775ad719-e1f9-4c7b-83aa-fcd503a6d351">
 
 Next steps:
 
-1- install pictures 
-2- add hints to the game
-3- add categories
+<li>1- install pictures </li>
+<li>2- add hints to the game</li>
+<li>3- add categories</li>
 
 Demo game
 https://alsaegh98.github.io/hangman/
