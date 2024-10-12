@@ -119,8 +119,17 @@ FUNCTION gameOver(isVictory)
 <li>This experience has strengthened my problem solving abilities .</li>
 
 
-Demo game
 
-http://127.0.0.1:5500/
+
+<img width="745" alt="Screenshot 2024-10-12 at 20 50 17" src="https://github.com/user-attachments/assets/775ad719-e1f9-4c7b-83aa-fcd503a6d351">
+
+Next steps:
+
+1- install pictures 
+2- add hints to the game
+3- add categories
+
+Demo game
+https://alsaegh98.github.io/hangman/
 
 
